@@ -81,7 +81,7 @@ var game = {
 };
 
 var playerTurn = 1;
-var cover = "<img src='assets/_Back.png'/>";
+var cover = "<img src='assets/Back.png'/>";
 
 //To always pick the 1st card on deck after shuffle
 function card1(){
@@ -195,8 +195,8 @@ start.click (function(){
   var firstCard = card1();
   var score1;
   var score2;
-  $('.container1 img[src="assets/_Back.png"]').remove();
-  $('.container2 img[src="assets/_Back.png"]').remove();
+  $('.container1 img[src="assets/Back.png"]').remove();
+  $('.container2 img[src="assets/Back.png"]').remove();
 
 
   table1a.prepend(game.cards[card1()].image); score1 = game.cards[card1()].number;
@@ -228,7 +228,7 @@ hit.click (function(){
   var aceValue = game.cards[card1()].number;
 
     if(game.turn === 1){
-    $('.container1 img[src="assets/_Back.png"]').remove();
+    $('.container1 img[src="assets/Back.png"]').remove();
     table1b.prepend(game.cards[card1()].image); score1 += game.cards[card1()].number;
     console.log(game.cards[card1()].image);
     shuffle (game.cards);
@@ -236,7 +236,7 @@ hit.click (function(){
     game.turn+= 1;
 
   } else if(game.turn === 2){
-    $('.container2 img[src="assets/_Back.png"]').remove();
+    $('.container2 img[src="assets/Back.png"]').remove();
     table2b.prepend(game.cards[card1()].image); score2 += game.cards[card1()].number;
     console.log(game.cards[card1()].image);
     shuffle (game.cards);
@@ -244,7 +244,7 @@ hit.click (function(){
     game.turn+= 1;
 
   } else if(game.turn === 3){
-    $('.container1 img[src="assets/_Back.png"]').remove();
+    $('.container1 img[src="assets/Back.png"]').remove();
     table1c.prepend(game.cards[card1()].image); score1 += game.cards[card1()].number;
     console.log(game.cards[card1()].image);
     shuffle (game.cards);
@@ -252,7 +252,7 @@ hit.click (function(){
     game.turn+= 1;
 
   } else if (game.turn === 4) {
-    $('.container2 img[src="assets/_Back.png"]').remove();
+    $('.container2 img[src="assets/Back.png"]').remove();
     table2c.prepend(game.cards[card1()].image); score2 += game.cards[card1()].number;
     console.log(game.cards[card1()].image);
     shuffle (game.cards);
@@ -260,28 +260,28 @@ hit.click (function(){
     game.turn+= 1;
 
   } else if (game.turn === 5) {
-    $('.container1 img[src="assets/_Back.png"]').remove();
+    $('.container1 img[src="assets/Back.png"]').remove();
     table1d.prepend(game.cards[card1()].image); score1 += game.cards[card1()].number;
     shuffle (game.cards);
     instruction.text('Player 2....Hit or Stand?');
     game.turn+= 1;
 
   } else if (game.turn === 6) {
-    $('.container2 img[src="assets/_Back.png"]').remove();
+    $('.container2 img[src="assets/Back.png"]').remove();
     table2d.prepend(game.cards[card1()].image); score2 += game.cards[card1()].number;
     shuffle (game.cards);
     instruction.text('Player 1....Hit it!');
     game.turn+= 1;
 
   } else if (game.turn === 7) {
-    $('.container1 img[src="assets/_Back.png"]').remove();
+    $('.container1 img[src="assets/Back.png"]').remove();
     table1e.prepend(game.cards[card1()].image); score1 += game.cards[card1()].number;
     shuffle (game.cards);
     instruction.text('Player 2....Hit it');
     game.turn+= 1;
 
   } else if (game.turn === 8) {
-    $('.container2 img[src="assets/_Back.png"]').remove();
+    $('.container2 img[src="assets/Back.png"]').remove();
     table2e.prepend(game.cards[card1()].image); score2 += game.cards[card1()].number;
     shuffle (game.cards);
     instruction.text('Click stand for results');
