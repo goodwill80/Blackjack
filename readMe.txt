@@ -24,3 +24,13 @@ Buttons will consist of
 2. Hit   		: To flash the subsequent card
 3. Conclude Game	: Premature end of game, and determine winners based on card score.
 4. Reset		: Reload Game or New Game
+
+Credits:
+————————
+Background Photo from : 
+
+http://www.ifatca2016lv.com/images/Las-Vegas-Nevada-Wallpaper-Desktop.jpg
+
+Card Images:
+
+http://wheels-cards.wc.lt/bicycle_cards.html
