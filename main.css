@@ -1,0 +1,84 @@
+
+body {
+  background-image:url("http://www.ifatca2016lv.com/images/Las-Vegas-Nevada-Wallpaper-Desktop.jpg");
+}
+
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  color: silver;
+
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.wrapper1{
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgba(30,	30,	30, 0.7);
+  width: 161px;
+  height: 200px;
+  display: block;
+  margin-left: 32px;
+  margin-top: 10px;
+  float: left;
+  border-radius: 10px;
+}
+
+.board {
+  background-color: rgba(30,	30,	30, 0.7);
+  color: yellow;
+  text-align: center;
+  width: 22%;
+  height: 50px;
+  margin: 20px auto;
+  margin-left: 20px;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.scoreboard{
+  background-color: rgba(30,	30,	30, 0.7);
+  color: yellow;
+  text-align: center;
+  width: 22%;
+  height: 50px;
+  margin: 10px auto;
+  margin-left: 20px;
+  display: inline;
+  font-size: 25px;
+  float: left;
+}
+
+.score{
+  background-color: rgba(30,	30,	30, 0.7);
+}
+
+#gametitle {
+  color: red;
+}
+
+#one {
+  background-color: rgba(205,	205,	193, 0.6);
+}
+
+#two {
+  background-color: rgba(205,	205,	193, 0.6);
+}
+
+.container1, .container2 {
+  height: 250px;
+  margin-top: 20px;
+}
+
+img {
+	height: 204px;
+  width: 166px;
+}
